@@ -1,0 +1,38 @@
+/** 2. Agregar diseño a H3*/
+body{
+    background-image: url("fondo.jpg");
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/**4. Agregar diseño al span con la clase note*/
+.note{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+/* 5. Agregar stilo al pie de página**/
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+}
+
+/**6. Agregar diseño al canvas */
+canvas{
+    border:  5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
